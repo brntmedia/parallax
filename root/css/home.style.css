@@ -6,7 +6,6 @@ html{
     font-weight:400;
     line-height:1.8em;
     color:#666;
-    align-items: center;
 }
 
 body{
@@ -20,7 +19,6 @@ body{
     background-color: #282e34;
     overflow: hidden;
     height:63px;
-    
 }
 
 .navbar a{
@@ -111,9 +109,27 @@ body{
     .open-slide{display: none;}
 }
 
-.bp{
-    padding-bottom: 20px;
+.personal{
+    display: flex;
+}
+
+.personal .section{
+    flex: 1;
     
+}
+
+.profile{
+    width: 200px;
+    height: 200px;
+    float: left;
+    padding: 0 25px 0 0;
+}
+
+.section-light p{
+    text-align: left;
+    float: right;
+    padding: 0 0 50px 25px;
+    margin: 0;
 }
 
 .link-d{
