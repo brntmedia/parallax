@@ -111,21 +111,22 @@ body{
 
 .personal{
     display: flex;
+    padding: 25px 0 0 0;
 }
 
 .personal .section{
     flex: 1;
-    
 }
 
 .profile{
+    object-fit: contain;
     width: 200px;
     height: 200px;
     float: left;
     padding: 0 25px 0 0;
 }
 
-.section-light p{
+.description{
     text-align: left;
     float: right;
     padding: 0 0 50px 25px;
